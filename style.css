@@ -1,32 +1,31 @@
 html {
     scroll-behavior: smooth;
-  }
+}
 
-body{
-    background-color:#5D6D7E  ;
+body {
+    background-color: #5D6D7E;
     font-family: 'Vollkorn', serif;
 }
 
-.nav-item:hover{
+.nav-item:hover {
     font-weight: bold;
     color: pink;
-
 }
 
 /*section 1 style */
-#section1{
+
+#section1 {
     position: relative;
-  
     text-align: center;
-    color: white;
-
+    color: #f9f9f9;
+    top: 45px;
 }
-    
 
+#section1 img {
+    height: 40%;
+    width: auto;
+}
 
-    
-     
- 
 .centered {
     position: absolute;
     top: 50%;
@@ -34,33 +33,49 @@ body{
     transform: translate(-50%, -50%);
     margin: 5px;
     padding: 10px;
-   width: fit-content;
-   height: fit-content;
-    border: 3px solid white;
-  }
-  .centered h1{
-      font-size: 8vw;
-  }
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    padding: 3%;
+}
 
-#section2{
+.centered h1 {
+    font-size: 8vw;
+    color: #f9f9f9;
+}
+
+.centered a {
+    color: #f9f9f9;
+}
+
+.centered a:hover {
+    color: #5D6D7E;
+}
+
+#section2 {
     height: 50%;
     background-color: black;
-    color: white;
+    color: #f9f9f9;
     text-align: center;
     padding: 10%;
-    line-height: 2;
-
+    line-height: 1.5;
+    font-size: 3vh;
 }
- #section3{
-     height: 100%;
-     background-color: white;
-     text-align: justify;
-     padding: 10%;
-     line-height: 2.5;
-     font-size: 20px;
- }
 
- #section4{
+#section2 p {
+    padding: 3%;
+}
+
+#section3 {
+    height: 100%;
+    background-color: white;
+    text-align: justify;
+    padding: 10%;
+    line-height: 2.5;
+    font-size: 20px;
+}
+
+#section4 {
     height: 70%;
     min-height: fit-content;
     color: white;
@@ -70,17 +85,17 @@ body{
     line-height: 2.5;
 }
 
-
-#sec4back{
+#sec4back {
     background-image: url(lines.jpg);
     background-attachment: fixed;
 }
 
-.fa{
+.fa {
     color: white;
     font-size: 25px;
 }
-.fa:hover{
+
+.fa:hover {
     color: #5D6D7E;
     font-weight: bold;
 }
